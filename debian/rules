@@ -89,6 +89,7 @@ full_configure_flags := \
 
 extras_configure_flags := \
 			$(common_configure_flags) \
+			--add-module=$(MODULESDIR)/modsecurity-nginx \
 			--with-http_addition_module \
 			--with-http_dav_module \
 			--with-http_flv_module \
